@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boot Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <div class="title">
+      <h1>Boot Quiz</h1>
+    </div>
+
+    <ul class="series active">
+      <h3>1) What's more important to you?</h3>
+      <li class="question" data-code="1"><p>Comfort</p></li>
+      <li class="question" data-code="2"><p>Weight</p></li>
+    </ul>
+
+    <ul class="series">
+      <h3>2) Which do you prefer?</h3>
+      <li class="question" data-code="1"><p>Soft touch</p></li>
+      <li class="question" data-code="2"><p>Barefoot feel</p></li>
+    </ul>
+
+    <ul class="series">
+      <h3>3) What's your price range?</h3>
+      <li class="question" data-code="1"><p><$200</p></li>
+      <li class="question" data-code="2"><p>$200+</p></li>
+    </ul>
+
+    <ul class="series">
+      <h3>4) Which better describes you?</h3>
+      <li class="question" data-code="1"><p>Skiller</p></li>
+      <li class="question" data-code="2"><p>Architect</p></li>
+    </ul>
+
+    <div id="result">
+      <h2 class="restitle"></h2>
+      <h3 class="shoe"></h3>
+      <img class="boot" src="">
+    </div>
+
+    <div id="count">
+      <button class="clear">Reset</button>
+      <div class="counter"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

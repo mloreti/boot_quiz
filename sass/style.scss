@@ -1,0 +1,86 @@
+@import 'normalize';
+$green: #27ae60;
+
+/* Layout */
+html,body,.app {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  min-width: 800px;
+}
+h1 {
+  font-size: 48px;
+}
+.landing, .results {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  p {
+    font-size: 48px;
+    color: #777;
+  }
+}
+.app, .results {
+  display: none;
+}
+
+.left {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background: $green;
+  color: white;
+}
+.right {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.content {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+h3.option {
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+}
+
+.options-text:hover > h3.option {
+  color: #aaa;
+  &:hover {
+    color: black;
+  }
+}
+
+
+.boots {
+  margin-left: -20px;
+  margin-bottom: 25px;
+  h3 {
+    margin-left: 20px;
+  }
+}
+.results {
+  img {
+    height: 200px;
+  }
+  .boot {
+    float: left;
+    width: 40%;
+    margin: 5px;
+    padding: 15px;
+  }
+}
+button {
+  padding: 7px 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  border: none;
+  background-color: $green;
+}
